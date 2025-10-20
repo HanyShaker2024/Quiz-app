@@ -61,7 +61,7 @@ function getQuestions() {
     }
   };
 
-  myRequest.open("GET", "html_questions.json", true);
+  myRequest.open("GET", "html.questions.json", true);
   myRequest.send();
 }
 
